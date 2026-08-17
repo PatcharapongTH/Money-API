@@ -1,0 +1,77 @@
+2026-08-17 08:51:21.984 [info] [OnboardingStatus] Updating context key 'gDataCloud.alreadyOnboarded' to false
+2026-08-17 08:51:21.984 [info] Getting gcloud config internal...
+2026-08-17 08:51:21.984 [info] Checking for gcloud binary path...
+2026-08-17 08:51:21.984 [info] Executing: which gcloud
+2026-08-17 08:51:21.984 [info] Getting gcloud config internal...
+2026-08-17 08:51:21.984 [info] Checking for gcloud binary path...
+2026-08-17 08:51:21.984 [info] Executing: which gcloud
+2026-08-17 08:51:21.984 [info] Checking for gcloud binary path...
+2026-08-17 08:51:21.984 [info] Executing: which gcloud
+2026-08-17 08:51:21.984 [info] hasGcloud: true
+2026-08-17 08:51:21.984 [info] Activating bigquery
+2026-08-17 08:51:21.984 [info] ConversationalAnalyticsPlugin activated
+2026-08-17 08:51:21.984 [info] ConversationalAnalyticsPlugin: activate finished
+2026-08-17 08:51:21.984 [info] Activating Databases
+2026-08-17 08:51:21.984 [info] Activating Catalog Feature
+2026-08-17 08:51:21.984 [info] Activating dataplex universal catalog
+2026-08-17 08:51:21.984 [info] Activating dataproc
+2026-08-17 08:51:21.984 [info] Activating spark resource tree
+2026-08-17 08:51:21.984 [info] SparkMonitorPlugin: Activating...
+2026-08-17 08:51:21.984 [info] SparkMonitorPlugin: State change - experiment: true, setting: true, overall: true
+2026-08-17 08:51:21.984 [info] [2026-08-17T08:51:09.553Z] Activating Agent Skill Installer
+2026-08-17 08:51:21.984 [info] [2026-08-17T08:51:09.563Z] appName: Code OSS for Cloud Shell, ideType: 6
+2026-08-17 08:51:21.984 [info] [2026-08-17T08:51:09.563Z] Profile antigravity-ide is NOT active
+2026-08-17 08:51:21.984 [info] [2026-08-17T08:51:09.563Z] Profile antigravity is NOT active
+2026-08-17 08:51:21.984 [info] [2026-08-17T08:51:09.563Z] Profile jetski is NOT active
+2026-08-17 08:51:21.984 [info] [2026-08-17T08:51:09.563Z] Profile cursor is NOT active
+2026-08-17 08:51:21.984 [info] [2026-08-17T08:51:09.563Z] Profile copilot is NOT active
+2026-08-17 08:51:21.984 [info] [2026-08-17T08:51:09.563Z] Profile gemini-code-assist is active
+2026-08-17 08:51:21.984 [info] Executing: gcloud config config-helper --format json
+2026-08-17 08:51:21.984 [info] Executing: gcloud config config-helper --format json
+2026-08-17 08:51:21.984 [info] Syncing gcloud settings to extension
+2026-08-17 08:51:21.984 [info] [OnboardingPlugin] Cloud Code extension or Cloud Shell/Workstations detected. Skipping automatic onboarding.
+2026-08-17 08:51:21.984 [info] hasGcloud: true
+2026-08-17 08:51:21.984 [info] Getting gcloud config internal...
+2026-08-17 08:51:21.984 [info] Executing: gcloud config config-helper --format json
+2026-08-17 08:51:21.984 [info] [MCP Registry] Listening on socket: /tmp/datacloud-mcp-notebooks-codeossforcloudshell.sock
+2026-08-17 08:51:21.984 [info] [MCP Registry] Server 'notebooks' listening on IPC socket: /tmp/datacloud-mcp-notebooks-codeossforcloudshell.sock
+2026-08-17 08:51:21.984 [info] [MCP Registry] Listening on socket: /tmp/datacloud-mcp-visualization-codeossforcloudshell.sock
+2026-08-17 08:51:21.984 [info] [MCP Registry] Server 'visualization' listening on IPC socket: /tmp/datacloud-mcp-visualization-codeossforcloudshell.sock
+2026-08-17 08:51:21.984 [info] [MCP Registry] Listening on socket: /tmp/datacloud-mcp-context-codeossforcloudshell.sock
+2026-08-17 08:51:21.984 [info] [MCP Registry] Server 'context' listening on IPC socket: /tmp/datacloud-mcp-context-codeossforcloudshell.sock
+2026-08-17 08:51:21.984 [info] MCP config plugin: MCP config key: mcpServers
+2026-08-17 08:51:21.984 [info] MCP config plugin: ideType: 6
+2026-08-17 08:51:22.055 [info] Checking if identities match...Fetching ADC account name...
+2026-08-17 08:51:22.149 [info] SparkMonitorPlugin: Wrote filter config file with value: true
+2026-08-17 08:51:22.581 [info] MCP config plugin: MCP config key: mcpServers
+2026-08-17 08:51:22.797 [info] hasGcloud: true
+2026-08-17 08:51:23.419 [info] [2026-08-17T08:51:23.419Z] Checking skills for Gemini Code Assist in /home/zizoozaa01/.gemini/skills. Force=false
+2026-08-17 08:51:23.428 [info] [2026-08-17T08:51:23.428Z] Bundle checksum match. Skipping installation.
+2026-08-17 08:51:23.434 [info] [2026-08-17T08:51:23.429Z] Syncing telemetry hooks for gemini-code-assist. Telemetry enabled: true
+2026-08-17 08:51:23.465 [info] [2026-08-17T08:51:23.464Z] Hook plugin for gemini-code-assist installed successfully to /home/zizoozaa01/.gemini/config/plugins/googlecloudtools.datacloud_telemetry
+2026-08-17 08:51:26.164 [info] Identity match check: {"gcloudAccountEmpty":false,"vscodeAccountEmpty":false,"gcloudAdcAccountEmpty":false,"gcloudAccountMatchesVscode":true,"gcloudAdcAccountMatchesVscode":true}
+2026-08-17 08:51:26.972 [info] gcloud version: 579.0.0, isCompatible: true
+2026-08-17 08:51:26.972 [info] Checking if logged in to gcloud...
+2026-08-17 08:51:26.972 [info] Getting gcloud config internal...
+2026-08-17 08:51:27.010 [info] Executing: gcloud config config-helper --format json
+2026-08-17 08:51:27.987 [info] MCP config plugin: ideType: 6
+2026-08-17 08:51:27.987 [info] SparkMonitorPlugin: State change - experiment: true, setting: true, overall: true
+2026-08-17 08:51:28.076 [info] MCP config plugin: MCP config key: mcpServers
+2026-08-17 08:51:28.659 [info] SparkMonitorPlugin: Wrote filter config file with value: true
+2026-08-17 08:51:31.912 [info] Executing: gcloud auth application-default print-access-token
+2026-08-17 08:51:38.401 [info] Verified that user is logged in to gcloud CLI and ADC.
+2026-08-17 08:51:45.136 [info] hasGcloud: true
+2026-08-17 08:51:50.431 [info] gcloud version: 579.0.0, isCompatible: true
+2026-08-17 08:51:50.431 [info] Checking if logged in to gcloud...
+2026-08-17 08:51:50.431 [info] Getting gcloud config internal...
+2026-08-17 08:51:50.505 [info] Executing: gcloud config config-helper --format json
+2026-08-17 08:51:55.651 [info] Executing: gcloud auth application-default print-access-token
+2026-08-17 08:51:59.251 [info] Verified that user is logged in to gcloud CLI and ADC.
+2026-08-17 09:46:22.442 [info] proactively refreshing access token
+2026-08-17 09:49:30.635 [info] Deactivating bigquery
+2026-08-17 09:49:30.635 [info] Deactivating GCS
+2026-08-17 09:49:30.635 [info] Deactivating Databases
+2026-08-17 09:49:30.635 [info] Deactivating Catalog Feature
+2026-08-17 09:49:30.635 [info] Deactivating dataproc
+2026-08-17 09:49:30.635 [info] SparkMonitorPlugin: Deactivating...
+2026-08-17 09:49:30.635 [info] Deactivating settings

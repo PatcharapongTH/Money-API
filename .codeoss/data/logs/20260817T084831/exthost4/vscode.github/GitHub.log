@@ -1,0 +1,8 @@
+2026-08-17 09:51:28.756 [info] Log level: Info
+2026-08-17 09:51:30.480 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
+2026-08-17 09:51:35.803 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for PatcharapongTH/Money-API: Error: No GitHub authentication session available.
+2026-08-17 09:55:44.558 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_getCommitAuthor] Failed to get commit author for PatcharapongTH/Money-API/eae5b55a491297584be8090275f4aa16e363ea00: TypeError: Cannot read properties of null (reading 'author')
+2026-08-17 09:56:12.768 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_getCommitAuthor] Failed to get commit author for PatcharapongTH/Money-API/2867a68c8e37397db44a0cbb568adf09a0f74e48: TypeError: Cannot read properties of null (reading 'author')
+2026-08-17 09:56:40.903 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_getCommitAuthor] Failed to get commit author for PatcharapongTH/Money-API/2867a68c8e37397db44a0cbb568adf09a0f74e48: TypeError: Cannot read properties of null (reading 'author')
+2026-08-17 09:56:41.518 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_getCommitAuthor] Failed to get commit author for PatcharapongTH/Money-API/2867a68c8e37397db44a0cbb568adf09a0f74e48: TypeError: Cannot read properties of null (reading 'author')
+2026-08-17 09:57:32.604 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_getCommitAuthor] Failed to get commit author for PatcharapongTH/Money-API/86b61e1511c4ca16bcadff241545d1b3d4595dd7: TypeError: Cannot read properties of null (reading 'author')
