@@ -1,0 +1,236 @@
+2026-08-17 09:51:28.588 [info] [main] Log level: Info
+2026-08-17 09:51:28.588 [info] [main] Validating found git in: "git"
+2026-08-17 09:51:28.588 [info] [main] Using git "2.43.0" from "git"
+2026-08-17 09:51:28.588 [info] [Model][doInitialScan] Initial repository scan started
+2026-08-17 09:51:28.588 [info] > git rev-parse --show-toplevel [355ms]
+2026-08-17 09:51:28.596 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [12ms]
+2026-08-17 09:51:28.654 [info] [Model][openRepository] Opened repository (path): /home/zizoozaa01
+2026-08-17 09:51:28.654 [info] [Model][openRepository] Opened repository (real path): /home/zizoozaa01
+2026-08-17 09:51:28.654 [info] [Model][openRepository] Opened repository (kind): repository
+2026-08-17 09:51:28.692 [info] > git config --get commit.template [13ms]
+2026-08-17 09:51:28.693 [info] > git config --get --local core.virtualfilesystem [30ms]
+2026-08-17 09:51:28.694 [warning] [Git][config] git config failed: Failed to execute git
+2026-08-17 09:51:28.700 [info] > git rev-parse --show-toplevel [13ms]
+2026-08-17 09:51:28.724 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2026-08-17 09:51:28.754 [info] > git rev-parse --show-toplevel [34ms]
+2026-08-17 09:51:28.763 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [14ms]
+2026-08-17 09:51:28.769 [info] > git rev-parse --show-toplevel [7ms]
+2026-08-17 09:51:28.779 [info] > git rev-parse --show-toplevel [3ms]
+2026-08-17 09:51:28.791 [info] > git rev-parse --show-toplevel [2ms]
+2026-08-17 09:51:28.805 [info] > git status -z -uall [69ms]
+2026-08-17 09:51:28.921 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [70ms]
+2026-08-17 09:51:28.935 [info] > git rev-parse --show-toplevel [132ms]
+2026-08-17 09:51:29.302 [info] > git config --get --local branch.main.vscode-merge-base [367ms]
+2026-08-17 09:51:29.302 [warning] [Git][config] git config failed: Failed to execute git
+2026-08-17 09:51:29.308 [info] > git config --get commit.template [388ms]
+2026-08-17 09:51:29.338 [info] > git rev-parse --show-toplevel [38ms]
+2026-08-17 09:51:29.357 [info] > git reflog main --grep-reflog=branch: Created from *. [50ms]
+2026-08-17 09:51:29.381 [info] > git rev-parse --show-toplevel [26ms]
+2026-08-17 09:51:29.382 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-08-17 09:51:29.399 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [53ms]
+2026-08-17 09:51:29.441 [info] > git show --textconv eae5b55a491297584be8090275f4aa16e363ea00:app.py [51ms]
+2026-08-17 09:51:29.441 [info] > git check-ignore -v -z --stdin [7ms]
+2026-08-17 09:51:29.443 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [27ms]
+2026-08-17 09:51:29.444 [info] > git ls-tree -l eae5b55a491297584be8090275f4aa16e363ea00 -- app.py [45ms]
+2026-08-17 09:51:29.447 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [84ms]
+2026-08-17 09:51:29.447 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2026-08-17 09:51:29.447 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2026-08-17 09:51:29.452 [info] > git status -z -uall [46ms]
+2026-08-17 09:51:29.909 [info] > git ls-tree -l eae5b55a491297584be8090275f4aa16e363ea00 -- app.py [19ms]
+2026-08-17 09:51:30.659 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [45ms]
+2026-08-17 09:51:34.089 [info] > git check-ignore -v -z --stdin [48ms]
+2026-08-17 09:51:35.744 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname)%00%(parent)%00%(*parent)%00%(authorname)%00%(*authorname)%00%(committerdate:unix)%00%(*committerdate:unix)%00%(subject)%00%(*subject)%00%(upstream:track) [1024ms]
+2026-08-17 09:51:47.618 [info] > git checkout -q main [6645ms]
+2026-08-17 09:51:47.864 [info] > git config --get commit.template [153ms]
+2026-08-17 09:51:47.864 [info] > git ls-tree -l eae5b55a491297584be8090275f4aa16e363ea00 -- app.py [218ms]
+2026-08-17 09:51:48.518 [info] > git show --textconv eae5b55a491297584be8090275f4aa16e363ea00:app.py [245ms]
+2026-08-17 09:51:48.529 [info] > git ls-tree -l eae5b55a491297584be8090275f4aa16e363ea00 -- app.py [636ms]
+2026-08-17 09:51:48.616 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [125ms]
+2026-08-17 09:51:48.755 [info] > git status -z -uall [97ms]
+2026-08-17 09:51:48.756 [info] > git show --textconv eae5b55a491297584be8090275f4aa16e363ea00:app.py [15ms]
+2026-08-17 09:51:48.760 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [59ms]
+2026-08-17 09:51:49.452 [info] > git config --get commit.template [618ms]
+2026-08-17 09:51:49.512 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2026-08-17 09:51:49.595 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
+2026-08-17 09:51:49.627 [info] > git status -z -uall [84ms]
+2026-08-17 09:52:47.425 [info] > git ls-tree -l eae5b55a491297584be8090275f4aa16e363ea00 -- app.py [7ms]
+2026-08-17 09:54:15.446 [info] > git ls-tree -l eae5b55a491297584be8090275f4aa16e363ea00 -- app.py [3ms]
+2026-08-17 09:54:30.120 [info] > git ls-tree -l eae5b55a491297584be8090275f4aa16e363ea00 -- app.py [6ms]
+2026-08-17 09:54:34.572 [info] > git hash-object -t tree /dev/null [5ms]
+2026-08-17 09:54:34.590 [info] > git diff-tree -r --raw --numstat --diff-filter=ADMR -z --find-renames=50% 4b825dc642cb6eb9a060e54bf8d69288fbee4904 eae5b55a491297584be8090275f4aa16e363ea00 -- [3ms]
+2026-08-17 09:54:35.150 [info] > git check-ignore -v -z --stdin [3ms]
+2026-08-17 09:54:39.207 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [14ms]
+2026-08-17 09:54:39.935 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2026-08-17 09:54:40.461 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-08-17 09:54:40.785 [info] > git push -u origin main [168419ms]
+2026-08-17 09:54:40.785 [info] remote: No anonymous write access.
+fatal: Authentication failed for 'https://github.com/PatcharapongTH/Money-API.git/'
+2026-08-17 09:54:40.816 [info] > git config --get commit.template [15ms]
+2026-08-17 09:54:40.816 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-08-17 09:54:40.853 [info] > git status -z -uall [24ms]
+2026-08-17 09:54:40.859 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2026-08-17 09:54:40.900 [info] > git config --get commit.template [4ms]
+2026-08-17 09:54:40.914 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2026-08-17 09:54:40.950 [info] > git status -z -uall [24ms]
+2026-08-17 09:54:40.954 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2026-08-17 09:54:45.999 [info] > git config --get commit.template [15ms]
+2026-08-17 09:54:46.000 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-08-17 09:54:46.040 [info] > git status -z -uall [26ms]
+2026-08-17 09:54:46.046 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2026-08-17 09:55:02.702 [info] > git ls-tree -l eae5b55a491297584be8090275f4aa16e363ea00 -- app.py [4ms]
+2026-08-17 09:55:09.471 [info] > git check-ignore -v -z --stdin [4ms]
+2026-08-17 09:55:09.979 [info] > git ls-tree -l eae5b55a491297584be8090275f4aa16e363ea00 -- app.py [3ms]
+2026-08-17 09:55:10.032 [info] > git show --textconv eae5b55a491297584be8090275f4aa16e363ea00:app.py [3ms]
+2026-08-17 09:55:34.871 [info] > git push -u origin main [46783ms]
+2026-08-17 09:55:34.871 [info] To https://github.com/PatcharapongTH/Money-API.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/PatcharapongTH/Money-API.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+2026-08-17 09:55:35.160 [info] > git config --get commit.template [249ms]
+2026-08-17 09:55:35.179 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [232ms]
+2026-08-17 09:55:35.286 [info] > git status -z -uall [72ms]
+2026-08-17 09:55:35.303 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [44ms]
+2026-08-17 09:55:36.031 [info] > git ls-tree -l eae5b55a491297584be8090275f4aa16e363ea00 -- app.py [45ms]
+2026-08-17 09:55:36.035 [info] > git -c user.useConfigOnly=true commit --quiet [27539ms]
+2026-08-17 09:55:36.035 [info] Aborting commit due to empty commit message.
+2026-08-17 09:55:36.095 [info] > git config --get commit.template [12ms]
+2026-08-17 09:55:36.154 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2026-08-17 09:55:36.245 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [14ms]
+2026-08-17 09:55:36.250 [info] > git status -z -uall [60ms]
+2026-08-17 09:55:36.356 [info] > git config --get commit.template [5ms]
+2026-08-17 09:55:36.915 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [523ms]
+2026-08-17 09:55:37.071 [info] > git status -z -uall [99ms]
+2026-08-17 09:55:37.074 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [29ms]
+2026-08-17 09:55:37.170 [info] > git ls-tree -l eae5b55a491297584be8090275f4aa16e363ea00 -- app.py [13ms]
+2026-08-17 09:55:42.242 [info] > git config --get commit.template [40ms]
+2026-08-17 09:55:42.247 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2026-08-17 09:55:42.315 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2026-08-17 09:55:42.326 [info] > git status -z -uall [57ms]
+2026-08-17 09:55:43.092 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [12ms]
+2026-08-17 09:55:49.266 [info] > git ls-tree -l eae5b55a491297584be8090275f4aa16e363ea00 -- app.py [3ms]
+2026-08-17 09:55:49.316 [info] > git show --textconv eae5b55a491297584be8090275f4aa16e363ea00:app.py [3ms]
+2026-08-17 09:55:57.351 [info] > git ls-tree -l eae5b55a491297584be8090275f4aa16e363ea00 -- app.py [31ms]
+2026-08-17 09:55:57.353 [info] > git -c user.useConfigOnly=true commit --quiet [9579ms]
+2026-08-17 09:55:57.353 [info] Aborting commit due to empty commit message.
+2026-08-17 09:55:57.419 [info] > git config --get commit.template [37ms]
+2026-08-17 09:55:57.483 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [23ms]
+2026-08-17 09:55:57.567 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [25ms]
+2026-08-17 09:55:57.574 [info] > git status -z -uall [66ms]
+2026-08-17 09:55:57.661 [info] > git config --get commit.template [37ms]
+2026-08-17 09:55:57.665 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2026-08-17 09:55:58.008 [info] > git status -z -uall [316ms]
+2026-08-17 09:55:58.008 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [266ms]
+2026-08-17 09:56:04.867 [info] > git ls-tree -l eae5b55a491297584be8090275f4aa16e363ea00 -- app.py [17ms]
+2026-08-17 09:56:04.869 [info] > git config --get commit.template [3ms]
+2026-08-17 09:56:04.885 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-08-17 09:56:04.923 [info] > git status -z -uall [25ms]
+2026-08-17 09:56:04.925 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2026-08-17 09:56:09.971 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [71ms]
+2026-08-17 09:56:10.010 [info] > git config --get commit.template [4ms]
+2026-08-17 09:56:10.081 [info] > git config --get commit.template [35ms]
+2026-08-17 09:56:10.082 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2026-08-17 09:56:10.176 [info] > git status -z -uall [70ms]
+2026-08-17 09:56:10.180 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [25ms]
+2026-08-17 09:56:10.246 [info] > git push [14ms]
+2026-08-17 09:56:10.246 [info] fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+2026-08-17 09:56:10.374 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [74ms]
+2026-08-17 09:56:10.374 [info] > git config --get commit.template [101ms]
+2026-08-17 09:56:10.434 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [14ms]
+2026-08-17 09:56:10.443 [info] > git status -z -uall [49ms]
+2026-08-17 09:56:11.017 [info] > git check-ignore -v -z --stdin [29ms]
+2026-08-17 09:56:11.243 [info] > git ls-tree -l eae5b55a491297584be8090275f4aa16e363ea00 -- app.py [4ms]
+2026-08-17 09:56:11.318 [info] > git show --textconv eae5b55a491297584be8090275f4aa16e363ea00:app.py [6ms]
+2026-08-17 09:56:12.193 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [1822ms]
+2026-08-17 09:56:13.288 [info] > git push -u origin main [1163ms]
+2026-08-17 09:56:13.289 [info] To https://github.com/PatcharapongTH/Money-API.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/PatcharapongTH/Money-API.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+2026-08-17 09:56:13.340 [info] > git config --get commit.template [28ms]
+2026-08-17 09:56:13.344 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2026-08-17 09:56:13.405 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2026-08-17 09:56:13.413 [info] > git status -z -uall [46ms]
+2026-08-17 09:56:13.583 [info] > git config --get commit.template [21ms]
+2026-08-17 09:56:13.612 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2026-08-17 09:56:13.675 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2026-08-17 09:56:13.681 [info] > git status -z -uall [46ms]
+2026-08-17 09:56:13.775 [info] > git config --get commit.template [9ms]
+2026-08-17 09:56:13.826 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [26ms]
+2026-08-17 09:56:13.890 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2026-08-17 09:56:13.895 [info] > git status -z -uall [46ms]
+2026-08-17 09:56:15.865 [info] > git blame --root --incremental eae5b55a491297584be8090275f4aa16e363ea00 -- app.py [42ms]
+2026-08-17 09:56:19.768 [info] > git config --get commit.template [24ms]
+2026-08-17 09:56:19.770 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2026-08-17 09:56:19.838 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2026-08-17 09:56:19.843 [info] > git status -z -uall [55ms]
+2026-08-17 09:56:23.090 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% eae5b55a491297584be8090275f4aa16e363ea00...2867a68c8e37397db44a0cbb568adf09a0f74e48 -- [189ms]
+2026-08-17 09:56:23.902 [info] > git check-ignore -v -z --stdin [3ms]
+2026-08-17 09:56:24.903 [info] > git config --get commit.template [27ms]
+2026-08-17 09:56:24.908 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2026-08-17 09:56:24.975 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [8ms]
+2026-08-17 09:56:24.981 [info] > git status -z -uall [51ms]
+2026-08-17 09:56:26.355 [info] > git push -u origin main [1186ms]
+2026-08-17 09:56:26.355 [info] To https://github.com/PatcharapongTH/Money-API.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/PatcharapongTH/Money-API.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+2026-08-17 09:56:26.410 [info] > git config --get commit.template [27ms]
+2026-08-17 09:56:26.412 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2026-08-17 09:56:26.488 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2026-08-17 09:56:26.496 [info] > git status -z -uall [59ms]
+2026-08-17 09:56:30.041 [info] > git config --get commit.template [25ms]
+2026-08-17 09:56:30.049 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2026-08-17 09:56:30.110 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2026-08-17 09:56:30.115 [info] > git status -z -uall [43ms]
+2026-08-17 09:56:30.257 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname)%00%(parent)%00%(*parent)%00%(authorname)%00%(*authorname)%00%(committerdate:unix)%00%(*committerdate:unix)%00%(subject)%00%(*subject)%00%(upstream:track) [41ms]
+2026-08-17 09:56:32.573 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) refs/heads [3ms]
+2026-08-17 09:56:35.156 [info] > git config --get commit.template [18ms]
+2026-08-17 09:56:35.158 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2026-08-17 09:56:35.205 [info] > git status -z -uall [29ms]
+2026-08-17 09:56:35.208 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2026-08-17 09:56:39.895 [info] > git checkout -q -b Test001 --no-track HEAD [9ms]
+2026-08-17 09:56:39.924 [info] > git config --get commit.template [15ms]
+2026-08-17 09:56:39.925 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/Test001 refs/remotes/Test001 [3ms]
+2026-08-17 09:56:39.962 [info] > git status -z -uall [23ms]
+2026-08-17 09:56:39.963 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-08-17 09:56:39.982 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/Test001 refs/remotes/Test001 [3ms]
+2026-08-17 09:56:39.999 [info] > git config --get --local branch.Test001.vscode-merge-base [2ms]
+2026-08-17 09:56:39.999 [warning] [Git][config] git config failed: Failed to execute git
+2026-08-17 09:56:40.025 [info] > git reflog Test001 --grep-reflog=branch: Created from *. [8ms]
+2026-08-17 09:56:40.046 [info] > git reflog HEAD --grep-reflog=checkout: moving from .* to Test001 [3ms]
+2026-08-17 09:56:40.087 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [24ms]
+2026-08-17 09:56:40.106 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2026-08-17 09:56:40.106 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2026-08-17 09:56:40.107 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2026-08-17 09:56:40.251 [info] > git config --get commit.template [12ms]
+2026-08-17 09:56:40.280 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/Test001 refs/remotes/Test001 [5ms]
+2026-08-17 09:56:40.348 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2026-08-17 09:56:40.353 [info] > git status -z -uall [49ms]
+2026-08-17 09:56:40.441 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [254ms]
+2026-08-17 09:56:41.146 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [175ms]
+2026-08-17 09:57:07.137 [info] > git config --get commit.template [3ms]
+2026-08-17 09:57:07.157 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/Test001 refs/remotes/Test001 [5ms]
+2026-08-17 09:57:07.196 [info] > git status -z -uall [24ms]
+2026-08-17 09:57:07.200 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2026-08-17 09:57:12.234 [info] > git config --get commit.template [15ms]
+2026-08-17 09:57:12.236 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/Test001 refs/remotes/Test001 [4ms]
+2026-08-17 09:57:12.273 [info] > git status -z -uall [25ms]
+2026-08-17 09:57:12.274 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]

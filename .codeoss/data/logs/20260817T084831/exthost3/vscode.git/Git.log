@@ -1,0 +1,86 @@
+2026-08-17 09:49:45.843 [info] [main] Log level: Info
+2026-08-17 09:49:45.843 [info] [main] Validating found git in: "git"
+2026-08-17 09:49:45.843 [info] [main] Using git "2.43.0" from "git"
+2026-08-17 09:49:45.843 [info] [Model][doInitialScan] Initial repository scan started
+2026-08-17 09:49:45.843 [info] > git rev-parse --show-toplevel [113ms]
+2026-08-17 09:49:45.846 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [15ms]
+2026-08-17 09:49:45.920 [info] [Model][openRepository] Opened repository (path): /home/zizoozaa01
+2026-08-17 09:49:45.920 [info] [Model][openRepository] Opened repository (real path): /home/zizoozaa01
+2026-08-17 09:49:45.920 [info] [Model][openRepository] Opened repository (kind): repository
+2026-08-17 09:49:45.959 [info] > git config --get --local core.virtualfilesystem [21ms]
+2026-08-17 09:49:45.959 [warning] [Git][config] git config failed: Failed to execute git
+2026-08-17 09:49:45.961 [info] > git rev-parse --show-toplevel [5ms]
+2026-08-17 09:49:45.962 [info] > git config --get commit.template [12ms]
+2026-08-17 09:49:45.981 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2026-08-17 09:49:46.020 [info] > git status -z -uall [30ms]
+2026-08-17 09:49:46.021 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [14ms]
+2026-08-17 09:49:46.081 [info] > git rev-parse --show-toplevel [102ms]
+2026-08-17 09:49:46.107 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [33ms]
+2026-08-17 09:49:46.119 [info] > git rev-parse --show-toplevel [14ms]
+2026-08-17 09:49:46.120 [info] > git config --get commit.template [26ms]
+2026-08-17 09:49:46.128 [info] > git config --get --local branch.main.vscode-merge-base [13ms]
+2026-08-17 09:49:46.129 [warning] [Git][config] git config failed: Failed to execute git
+2026-08-17 09:49:46.378 [info] > git reflog main --grep-reflog=branch: Created from *. [242ms]
+2026-08-17 09:49:46.385 [info] > git rev-parse --show-toplevel [259ms]
+2026-08-17 09:49:46.399 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [30ms]
+2026-08-17 09:49:46.419 [info] > git status -z -uall [14ms]
+2026-08-17 09:49:46.422 [info] > git rev-parse --show-toplevel [24ms]
+2026-08-17 09:49:46.423 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [39ms]
+2026-08-17 09:49:46.423 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2026-08-17 09:49:46.423 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2026-08-17 09:49:46.431 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [16ms]
+2026-08-17 09:49:46.448 [info] > git rev-parse --show-toplevel [17ms]
+2026-08-17 09:49:46.457 [info] > git rev-parse --show-toplevel [2ms]
+2026-08-17 09:49:46.470 [info] > git rev-parse --show-toplevel [8ms]
+2026-08-17 09:49:46.471 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-08-17 09:49:46.529 [info] > git check-ignore -v -z --stdin [4ms]
+2026-08-17 09:49:46.700 [info] > git check-ignore -v -z --stdin [12ms]
+2026-08-17 09:49:50.843 [info] > git show --textconv :app.py [79ms]
+2026-08-17 09:49:50.850 [info] > git ls-files --stage -- app.py [72ms]
+2026-08-17 09:49:50.909 [info] > git cat-file -s 90b78311f6d6c69f19cee89e7558a8ee6435dc1e [20ms]
+2026-08-17 09:49:55.705 [info] > git check-ignore -v -z --stdin [3041ms]
+2026-08-17 09:49:59.506 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [3963ms]
+2026-08-17 09:50:00.080 [info] > git config --get commit.template [2224ms]
+2026-08-17 09:50:05.768 [info] > git check-ignore -v -z --stdin [6162ms]
+2026-08-17 09:50:05.770 [info] > git blame --root --incremental eae5b55a491297584be8090275f4aa16e363ea00 -- app.py [6055ms]
+2026-08-17 09:50:06.228 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [408ms]
+2026-08-17 09:50:06.495 [info] > git status -z -uall [236ms]
+2026-08-17 09:50:06.769 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [474ms]
+2026-08-17 09:50:07.965 [info] > git check-ignore -v -z --stdin [13ms]
+2026-08-17 09:50:09.928 [info] > git hash-object -t tree /dev/null [37ms]
+2026-08-17 09:50:10.272 [info] > git diff-tree -r --raw --numstat --diff-filter=ADMR -z --find-renames=50% 4b825dc642cb6eb9a060e54bf8d69288fbee4904 eae5b55a491297584be8090275f4aa16e363ea00 -- [213ms]
+2026-08-17 09:50:11.602 [info] > git check-ignore -v -z --stdin [27ms]
+2026-08-17 09:50:21.688 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [32ms]
+2026-08-17 09:50:22.825 [info] > git check-ignore -v -z --stdin [17ms]
+2026-08-17 09:50:24.921 [info] > git diff-tree -r --raw --numstat --diff-filter=ADMR -z --find-renames=50% 4b825dc642cb6eb9a060e54bf8d69288fbee4904 eae5b55a491297584be8090275f4aa16e363ea00 -- [30ms]
+2026-08-17 09:50:26.421 [info] > git add -A -- . [20681ms]
+2026-08-17 09:50:26.421 [info] warning: adding embedded git repository: .gemini/extensions/vertex
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> .gemini/extensions/vertex
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached .gemini/extensions/vertex
+hint: 
+hint: See "git help submodule" for more information.
+warning: adding embedded git repository: .gemini/history/zizoozaa01
+2026-08-17 09:50:29.120 [info] > git check-ignore -v -z --stdin [84ms]
+2026-08-17 09:50:36.480 [info] > git show --textconv eae5b55a491297584be8090275f4aa16e363ea00:app.py [1122ms]
+2026-08-17 09:50:36.495 [info] > git check-ignore -v -z --stdin [56ms]
+2026-08-17 09:50:36.502 [info] > git ls-tree -l eae5b55a491297584be8090275f4aa16e363ea00 -- app.py [327ms]
+2026-08-17 09:50:47.878 [info] > git ls-tree -l eae5b55a491297584be8090275f4aa16e363ea00 -- app.py [22ms]
+2026-08-17 09:51:00.593 [info] > git check-ignore -v -z --stdin [179ms]
+2026-08-17 09:51:00.604 [info] > git check-ignore -v -z --stdin [104ms]
+2026-08-17 09:51:00.961 [info] > git show --textconv :app.py [53ms]
+2026-08-17 09:51:00.961 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [131ms]
+2026-08-17 09:51:00.983 [info] > git ls-files --stage -- app.py [23ms]
+2026-08-17 09:51:01.046 [info] > git cat-file -s 90b78311f6d6c69f19cee89e7558a8ee6435dc1e [38ms]
+2026-08-17 09:51:01.054 [info] > git diff-tree -r --raw --numstat --diff-filter=ADMR -z --find-renames=50% 4b825dc642cb6eb9a060e54bf8d69288fbee4904 eae5b55a491297584be8090275f4aa16e363ea00 -- [9ms]
+2026-08-17 09:51:01.946 [info] > git show --textconv eae5b55a491297584be8090275f4aa16e363ea00:app.py [74ms]
+2026-08-17 09:51:01.951 [info] > git ls-tree -l eae5b55a491297584be8090275f4aa16e363ea00 -- app.py [11ms]
+2026-08-17 09:51:09.472 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) --contains eae5b55a491297584be8090275f4aa16e363ea00 [16ms]

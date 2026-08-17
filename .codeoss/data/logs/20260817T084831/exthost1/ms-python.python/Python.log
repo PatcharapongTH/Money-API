@@ -1,0 +1,55 @@
+2026-08-17 08:49:03.820 [warning] Dir "/home/zizoozaa01/.pixi/envs" is not watchable (directory does not exist)
+2026-08-17 08:49:04.307 [info] Starting Environment refresh
+2026-08-17 08:49:04.307 [info] Searching for interpreters in posix paths locator
+2026-08-17 08:49:04.340 [info] Searching for pyenv environments
+2026-08-17 08:49:04.341 [info] Searching for conda environments
+2026-08-17 08:49:04.341 [info] Searching for global virtual environments
+2026-08-17 08:49:04.342 [info] Searching for custom virtual environments
+2026-08-17 08:49:04.409 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-08-17 08:49:04.410 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-08-17 08:49:04.416 [info] pyenv is not installed
+2026-08-17 08:49:04.416 [info] Finished searching for pyenv environments: 106 milliseconds
+2026-08-17 08:49:04.417 [info] Finished searching for custom virtual envs: 103 milliseconds
+2026-08-17 08:49:04.430 [info] > conda info --json
+2026-08-17 08:49:04.448 [info] > hatch env show --json
+2026-08-17 08:49:04.449 [info] cwd: .
+2026-08-17 08:49:04.527 [info] > pyenv which python
+2026-08-17 08:49:04.527 [info] cwd: .
+2026-08-17 08:49:04.528 [info] Finished searching for global virtual envs: 214 milliseconds
+2026-08-17 08:49:04.638 [info] Found: /bin/python --> /bin/python3.12
+2026-08-17 08:49:04.653 [info] Found: /bin/python3 --> /bin/python3.12
+2026-08-17 08:49:04.671 [info] Found: /bin/python3.12 --> /bin/python3.12
+2026-08-17 08:49:04.716 [info] Found: /usr/bin/python --> /usr/bin/python3.12
+2026-08-17 08:49:04.719 [info] Found: /usr/bin/python3 --> /usr/bin/python3.12
+2026-08-17 08:49:04.720 [info] Found: /usr/bin/python3.12 --> /usr/bin/python3.12
+2026-08-17 08:49:04.899 [info] Finished searching for interpreters in posix paths locator: 581 milliseconds
+2026-08-17 08:49:04.899 [info] > /bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2026-08-17 08:49:04.990 [info] > /usr/bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2026-08-17 08:49:04.993 [info] Environments refresh paths discovered (event): 692 milliseconds
+2026-08-17 08:49:04.994 [info] Environments refresh paths discovered: 696 milliseconds
+2026-08-17 08:49:05.269 [info] Environments refresh finished (event): 971 milliseconds
+2026-08-17 08:49:05.297 [info] Environment refresh took 1000 milliseconds
+2026-08-17 08:49:05.308 [info] Python interpreter path: /bin/python
+2026-08-17 08:49:13.435 [info] Starting Jedi language server for zizoozaa01.
+2026-08-17 08:50:25.156 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.12.3 64-bit',
+  detailedDisplayName: 'Python 3.12.3 64-bit',
+  type: undefined
+} /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/zizoozaa01/requirements.txt
+2026-08-17 08:50:25.156 [info] > /bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt

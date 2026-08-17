@@ -1,0 +1,1 @@
+[Context MCP] Failed to register: Error: MCP configuration providers must be registered in the contributes.mcpServerDefinitionProviders array within your package.json, but "contextProvider" was not

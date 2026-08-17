@@ -1,0 +1,67 @@
+[2026-08-17T08:48:55.057Z] Activating Agent Skill Installer
+[2026-08-17T08:48:55.077Z] appName: Code OSS for Cloud Shell, ideType: 6
+[2026-08-17T08:48:55.077Z] Profile antigravity-ide is NOT active
+[2026-08-17T08:48:55.077Z] Profile antigravity is NOT active
+[2026-08-17T08:48:55.077Z] Profile jetski is NOT active
+[2026-08-17T08:48:55.077Z] Profile cursor is NOT active
+[2026-08-17T08:48:55.077Z] Profile copilot is NOT active
+[2026-08-17T08:48:55.077Z] Profile gemini-code-assist is active
+[2026-08-17T08:49:05.348Z] Checking skills for Gemini Code Assist in /home/zizoozaa01/.gemini/skills. Force=false
+[2026-08-17T08:49:05.351Z] No previous manifest found or it was invalid.
+[2026-08-17T08:49:05.356Z] Ensured destination directory exists: /home/zizoozaa01/.gemini/skills
+[2026-08-17T08:49:05.375Z] Ensured destination directory exists: /home/zizoozaa01/.gemini/skills/accidental-data-loss-prevention
+[2026-08-17T08:49:05.375Z] Ensured destination directory exists: /home/zizoozaa01/.gemini/skills/bigquery-ai-ml
+[2026-08-17T08:49:05.375Z] Ensured destination directory exists: /home/zizoozaa01/.gemini/skills/bigquery-bigframes
+[2026-08-17T08:49:05.375Z] Ensured destination directory exists: /home/zizoozaa01/.gemini/skills/bigquery-data-transfer-service
+[2026-08-17T08:49:05.375Z] Ensured destination directory exists: /home/zizoozaa01/.gemini/skills/bigquery-graph
+[2026-08-17T08:49:05.375Z] Ensured destination directory exists: /home/zizoozaa01/.gemini/skills/bigquery-sql
+[2026-08-17T08:49:05.376Z] Ensured destination directory exists: /home/zizoozaa01/.gemini/skills/building-data-apps
+[2026-08-17T08:49:05.376Z] Ensured destination directory exists: /home/zizoozaa01/.gemini/skills/data-autocleaning
+[2026-08-17T08:49:05.376Z] Ensured destination directory exists: /home/zizoozaa01/.gemini/skills/dataform-bigquery
+[2026-08-17T08:49:05.376Z] Ensured destination directory exists: /home/zizoozaa01/.gemini/skills/dbt-bigquery
+[2026-08-17T08:49:05.376Z] Ensured destination directory exists: /home/zizoozaa01/.gemini/skills/discovering-gcp-data-assets
+[2026-08-17T08:49:05.376Z] Ensured destination directory exists: /home/zizoozaa01/.gemini/skills/enforcing-resource-attribution
+[2026-08-17T08:49:05.376Z] Ensured destination directory exists: /home/zizoozaa01/.gemini/skills/federate-lakehouse-catalog
+[2026-08-17T08:49:05.376Z] Ensured destination directory exists: /home/zizoozaa01/.gemini/skills/gcp-composer-troubleshooting
+[2026-08-17T08:49:05.376Z] Ensured destination directory exists: /home/zizoozaa01/.gemini/skills/gcp-data-pipelines
+[2026-08-17T08:49:05.378Z] Ensured destination directory exists: /home/zizoozaa01/.gemini/skills/gcp-dataflow
+[2026-08-17T08:49:05.379Z] Ensured destination directory exists: /home/zizoozaa01/.gemini/skills/gcloud-auth-verification
+[2026-08-17T08:49:05.379Z] Ensured destination directory exists: /home/zizoozaa01/.gemini/skills/gcp-managed-airflow-migrations
+[2026-08-17T08:49:05.379Z] Ensured destination directory exists: /home/zizoozaa01/.gemini/skills/gcp-pipeline-orchestration
+[2026-08-17T08:49:05.379Z] Ensured destination directory exists: /home/zizoozaa01/.gemini/skills/gcp-pipeline-resource-provisioning
+[2026-08-17T08:49:05.379Z] Ensured destination directory exists: /home/zizoozaa01/.gemini/skills/gcp-spark
+[2026-08-17T08:49:05.379Z] Ensured destination directory exists: /home/zizoozaa01/.gemini/skills/gcs-security-assessment
+[2026-08-17T08:49:05.379Z] Ensured destination directory exists: /home/zizoozaa01/.gemini/skills/managing-python-dependencies
+[2026-08-17T08:49:05.379Z] Ensured destination directory exists: /home/zizoozaa01/.gemini/skills/ml-best-practices
+[2026-08-17T08:49:05.379Z] Ensured destination directory exists: /home/zizoozaa01/.gemini/skills/notebook-guidance
+[2026-08-17T08:49:05.380Z] Ensured destination directory exists: /home/zizoozaa01/.gemini/skills/skill-repair
+[2026-08-17T08:49:05.655Z] Copied skill accidental-data-loss-prevention to /home/zizoozaa01/.gemini/skills/accidental-data-loss-prevention
+[2026-08-17T08:49:05.672Z] Copied skill dbt-bigquery to /home/zizoozaa01/.gemini/skills/dbt-bigquery
+[2026-08-17T08:49:05.674Z] Copied skill discovering-gcp-data-assets to /home/zizoozaa01/.gemini/skills/discovering-gcp-data-assets
+[2026-08-17T08:49:05.674Z] Copied skill enforcing-resource-attribution to /home/zizoozaa01/.gemini/skills/enforcing-resource-attribution
+[2026-08-17T08:49:05.675Z] Copied skill federate-lakehouse-catalog to /home/zizoozaa01/.gemini/skills/federate-lakehouse-catalog
+[2026-08-17T08:49:05.675Z] Copied skill gcp-composer-troubleshooting to /home/zizoozaa01/.gemini/skills/gcp-composer-troubleshooting
+[2026-08-17T08:49:05.678Z] Copied skill gcloud-auth-verification to /home/zizoozaa01/.gemini/skills/gcloud-auth-verification
+[2026-08-17T08:49:05.683Z] Copied skill managing-python-dependencies to /home/zizoozaa01/.gemini/skills/managing-python-dependencies
+[2026-08-17T08:49:05.683Z] Copied skill gcp-data-pipelines to /home/zizoozaa01/.gemini/skills/gcp-data-pipelines
+[2026-08-17T08:49:05.684Z] Copied skill dataform-bigquery to /home/zizoozaa01/.gemini/skills/dataform-bigquery
+[2026-08-17T08:49:05.687Z] Copied skill ml-best-practices to /home/zizoozaa01/.gemini/skills/ml-best-practices
+[2026-08-17T08:49:05.687Z] Copied skill skill-repair to /home/zizoozaa01/.gemini/skills/skill-repair
+[2026-08-17T08:49:05.694Z] Copied skill notebook-guidance to /home/zizoozaa01/.gemini/skills/notebook-guidance
+[2026-08-17T08:49:05.695Z] Copied skill bigquery-sql to /home/zizoozaa01/.gemini/skills/bigquery-sql
+[2026-08-17T08:49:05.726Z] Copied skill bigquery-data-transfer-service to /home/zizoozaa01/.gemini/skills/bigquery-data-transfer-service
+[2026-08-17T08:49:05.726Z] Copied skill data-autocleaning to /home/zizoozaa01/.gemini/skills/data-autocleaning
+[2026-08-17T08:49:05.732Z] Copied skill gcp-pipeline-resource-provisioning to /home/zizoozaa01/.gemini/skills/gcp-pipeline-resource-provisioning
+[2026-08-17T08:49:05.745Z] Copied skill gcp-managed-airflow-migrations to /home/zizoozaa01/.gemini/skills/gcp-managed-airflow-migrations
+[2026-08-17T08:49:05.756Z] Copied skill bigquery-bigframes to /home/zizoozaa01/.gemini/skills/bigquery-bigframes
+[2026-08-17T08:49:05.759Z] Copied skill gcp-spark to /home/zizoozaa01/.gemini/skills/gcp-spark
+[2026-08-17T08:49:05.817Z] Copied skill gcp-dataflow to /home/zizoozaa01/.gemini/skills/gcp-dataflow
+[2026-08-17T08:49:05.817Z] Copied skill gcp-pipeline-orchestration to /home/zizoozaa01/.gemini/skills/gcp-pipeline-orchestration
+[2026-08-17T08:49:05.820Z] Copied skill building-data-apps to /home/zizoozaa01/.gemini/skills/building-data-apps
+[2026-08-17T08:49:05.828Z] Copied skill bigquery-graph to /home/zizoozaa01/.gemini/skills/bigquery-graph
+[2026-08-17T08:49:05.854Z] Copied skill bigquery-ai-ml to /home/zizoozaa01/.gemini/skills/bigquery-ai-ml
+[2026-08-17T08:49:05.875Z] Copied skill gcs-security-assessment to /home/zizoozaa01/.gemini/skills/gcs-security-assessment
+[2026-08-17T08:49:05.875Z] Finished copying skills to /home/zizoozaa01/.gemini/skills. Updated 26 skills.
+[2026-08-17T08:49:05.882Z] Installation completed. Manifest updated.
+[2026-08-17T08:49:05.883Z] Syncing telemetry hooks for gemini-code-assist. Telemetry enabled: true
+[2026-08-17T08:49:05.905Z] Hook plugin for gemini-code-assist installed successfully to /home/zizoozaa01/.gemini/config/plugins/googlecloudtools.datacloud_telemetry
